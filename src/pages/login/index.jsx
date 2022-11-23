@@ -28,6 +28,7 @@ export default function Login() {
     //   }
 
 
+
   }
   const onFinishFailed = (errorInfo) => {
     console.log("Failed:", errorInfo);
@@ -68,8 +69,9 @@ export default function Login() {
             { max: 8, message: "用户名最多八位" },
             {
               whitespace: true,
+
               pattern: /^admin$/,
-              message: "用户名初始是admin",
+              message: "用户名初始是admin"
             },
           ]}
         >
@@ -88,8 +90,10 @@ export default function Login() {
             { max: 8, message: "密码最多八位" },
             {
               whitespace: true,
+
               pattern: /^admin$/,
               message: "密码初始是admin",
+
             },
           ]}
         >
