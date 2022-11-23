@@ -1,0 +1,52 @@
+.header {
+  width: 100%;
+  height: 84px;
+  background-color: #fff;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  
+  .header-bottom {
+    border-top: 1px solid blue;
+    width: 100%;
+    > p {
+      &::after {
+        position: absolute;
+        content: "";
+        border-top: 20px solid white;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-left: 20px solid transparent;
+        transform: translateX(-96%);
+        top: 78px;
+      }
+      text-align: center;
+      width: 30%;
+      height: 44px;
+      line-height: 44px;
+      margin-left: 40px;
+      font-size: 20px;
+      float: left;
+      margin-bottom: 0px;
+    }
+    > div {
+     line-height: 44px;
+      margin-right: 10px;
+      float: right;
+      > img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+  .header-top {
+   
+    margin-right: 10px;
+    letter-spacing: 1px;
+    height: 35px;
+    line-height: 35px;
+   
+  }
+}
