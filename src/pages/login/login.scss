@@ -1,0 +1,24 @@
+@import '~antd/dist/antd.css';
+.login {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets//images//R-C.jpg");
+  background-size: 100% 100%;
+  overflow: hidden;
+ 
+  header {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    h1 {
+      height: 80px;
+      font-size: 40px;
+      line-height: 80px;
+    }
+    img{
+        padding: 20px;
+    }
+  }
+}
